@@ -1,13 +1,13 @@
 AWSTemplateFormatVersion: '2010-09-09'
-Transform: 'AWS::Serverless-2016-10-31'
+Transform: AWS::Serverless-2016-10-31
 Description: Facts about Louie the dog
 Resources:
   alexaskillfactslouie:
-    Type: 'AWS::Serverless::Function'
+    Type: AWS::Serverless::Function
     Properties:
       Handler: index.handler
       Runtime: nodejs6.10
-      CodeUri: .
+      CodeUri: s3://lambda.things/1532f43361ad0d4f11be68fc07638b57
       Description: Facts about Louie the dog
       MemorySize: 128
       Timeout: 7
