@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: index.handler
       Runtime: nodejs6.10
-      CodeUri: s3://lambda.things/1532f43361ad0d4f11be68fc07638b57
+      CodeUri: s3://lambda.things/6611a3377a62fe301e010d737a333274
       Description: Facts about Louie the dog
       MemorySize: 128
       Timeout: 7
